@@ -37,11 +37,7 @@
                 android:layout_weight="1"
                 android:text="Disable" />
         </LinearLayout>
-        <EditText
-            android:id="@+id/should_pay"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="number"/>
+
         <TextView
             android:id="@+id/input"
             android:layout_width="wrap_content"
@@ -53,17 +49,7 @@
             android:id="@+id/money_textView"
             android:layout_width="match_parent"
             android:layout_height="70dp" />
-        <TextView
-            android:id="@+id/output"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="找零" />
 
-
-        <TextView
-            android:id="@+id/output_textView"
-            android:layout_width="match_parent"
-            android:layout_height="70dp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
